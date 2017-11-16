@@ -17,7 +17,7 @@ var connection = mysql.createConnection({
 var promptUser = function(){
 	inquirer.prompt([{
 			name: "hello",
-		    message: "Welcome to Bamazon!"
+		    message: "Welcome to Bamazon! Press enter to begin."
 		},
 	    {
 		    name: "demand",

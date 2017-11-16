@@ -1,5 +1,5 @@
+DROP DATABASE IF EXISTS Bamazon_db;
 CREATE database Bamazon;
-
 USE Bamazon;
 
 CREATE TABLE products  (
@@ -11,9 +11,9 @@ CREATE TABLE products  (
  primary key(item_id)
 );
 
-insert into products (product_name,department_name, price,stock_quantity)
-value
-("t-shirt", "clothing", 4.99, 100),
+INSERT INTO products (product_name,department_name, price,stock_quantity)
+VALUES
+("t-shirt", "clothing", 18.99, 100),
 ("socks","clothing", 3.99, 200),
 ("sweater","clothing", 9.99, 50),
 ("sweatpants","clothing", 9.99, 50),
